@@ -13,8 +13,8 @@ class category(models.Model):
         return self.category_name
 
 STATUS_CHOICES = (
-    (0, "Draft"),
-    (1, "Published")
+    ("Draft", "Draft"),
+    ("Published", "Published")
 )
 
 
